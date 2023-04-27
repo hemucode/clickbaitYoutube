@@ -1,0 +1,15 @@
+{
+
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Privacy aware, secure Adblock for YouTube™. Blocks any ads on YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock for YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   }
+}
