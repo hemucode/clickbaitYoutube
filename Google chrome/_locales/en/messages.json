@@ -2,14 +2,23 @@
 
    "extensionDescription": {
       "description": "The description of the application",
-      "message": "Privacy aware, secure Adblock for YouTube™. Blocks any ads on YouTube.com."
+      "message": "YouTube removes all clickbait so you can choose the right video"
    },
    "extensionName": {
       "description": "The name of the application",
-      "message": "Adblock for YouTube™ — best adblocker"
+      "message": " Clickbait for YouTube™"
    },
    "extensionShortName": {
       "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
-      "message": "Adb YouTube™"
+      "message": "Clickbait"
+   },
+   "clickbait": {
+      "description": "The short_name",
+      "message": "Clickbait"
+   }
+   ,
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "Take the thumbnail image from any part of the video: "
    }
 }

@@ -15,6 +15,10 @@ body {
 
 h1 {
   margin-top: 4px;
+  font-size: 20px;
+}
+.clickbait{
+  font-size: 50px;
 }
 
 .logo {

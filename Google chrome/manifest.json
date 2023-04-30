@@ -7,7 +7,7 @@
          "64": "data/icons/icon-64.png"
       },
       "default_popup": "data/interface/index.html?popup",
-      "default_title": "__MSG_actionTitle__"
+      "default_title": "__MSG_extensionName__"
    },
    "background": {
       "service_worker": "background.js"
@@ -18,13 +18,6 @@
       "matches": [ "*://*.youtube.com/*" ],
       "run_at": "document_start"
    } ],
-   "declarative_net_request": {
-      "rule_resources": [ {
-         "enabled": true,
-         "id": "youtube",
-         "path": "data/rules/youtube.json"
-      } ]
-   },
    "default_locale": "en",
    "description": "__MSG_extensionDescription__",
    "host_permissions": [ "\u003Call_urls>" ],
