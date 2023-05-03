@@ -22,11 +22,6 @@ function translate() {
  * @returns Promise
  */
 async function hydrate() {
-  // Get settings
-  // const { enabled, videoCount } = await chrome.storage.sync.get({
-  //   enabled: true,
-  //   videoCount: 0,
-  // });
    var a = new Promise(function(resolve, reject){
         chrome.storage.sync.get({"enabled": true}, function(options){
             resolve(options.enabled);
@@ -36,56 +31,66 @@ async function hydrate() {
   const enabled = await a;
   console.log(enabled);
 
-  // var c = new Promise(function(resolve, reject){
-  //       chrome.storage.sync.get({"videoCount": 0}, function(options){
-  //           resolve(options.videoCount);
-  //       })
-  //   });
 
-  // const videoCount = await c;
-  // console.log(videoCount);
+  // Hydrate Checkbox Label
+  const $checkboxLabel = document.querySelector("[data-message=enabled]");
+  $checkboxLabel.textContent = chrome.i18n.getMessage(
+    enabled ? "enabled" : "disabled"
+  );
 
-  // // Hydrate Logo
-  // const $logo = document.querySelector(".logo");
-  // $logo.style.filter = enabled ? "grayscale(0)" : "grayscale(100%)";
-  // $logo.style.opacity = enabled ? "1" : "0.7";
+  // Hydrate Checkbox Label
+  const $enabledCheckbox = document.querySelector("input[name=enabled]");
+  $enabledCheckbox.checked = enabled;
+  $enabledCheckbox.addEventListener("change", async (event) => {
+    const enabled = event.currentTarget.checked;
 
-  // // Hydrate Timesave info
-  // const $timeSaveInfo = document.querySelector(".timesave-info");
-  // const adTimePerVideo = 0.5;
-  // const timeSaved = Math.ceil(videoCount * adTimePerVideo);
-  // $timeSaveInfo.textContent = chrome.i18n.getMessage("timesaveInfo", [
-  //   new Intl.NumberFormat(undefined, {
-  //     style: "unit",
-  //     unit: "minute",
-  //     unitDisplay: "long",
-  //   }).format(timeSaved),
-  // ]);
+    // Persist
+    await chrome.storage.sync.set({ enabled });
 
-  // // Hydrate Checkbox Label
-  // const $checkboxLabel = document.querySelector("[data-message=enabled]");
-  // $checkboxLabel.textContent = chrome.i18n.getMessage(
-  //   enabled ? "enabled" : "disabled"
-  // );
+    // Update Checkbox Label
+    $checkboxLabel.textContent = chrome.i18n.getMessage(
+      enabled ? "enabled" : "disabled"
+    );
 
-  // // Hydrate Checkbox Label
-  // const $enabledCheckbox = document.querySelector("input[name=enabled]");
-  // $enabledCheckbox.checked = enabled;
-  // $enabledCheckbox.addEventListener("change", async (event) => {
-  //   const enabled = event.currentTarget.checked;
+  });
 
-  //   // Persist
-  //   await chrome.storage.sync.set({ enabled });
 
-  //   // Update Checkbox Label
-  //   $checkboxLabel.textContent = chrome.i18n.getMessage(
-  //     enabled ? "enabled" : "disabled"
-  //   );
+  var b = new Promise(function(resolve, reject){
+        chrome.storage.sync.get({"thumbnail": "hq1"}, function(options){
+            resolve(options.thumbnail);
+      })
+  });
 
-  //   // Update Logo
-  //   $logo.style.filter = enabled ? "grayscale(0)" : "grayscale(100%)";
-  //   $logo.style.opacity = enabled ? "1" : "0.7";
-  // });
+  const thumbnail = await b;
+
+  const $thumbnailselect = document.querySelector("#changeThumbnail");
+  $thumbnailselect.value = thumbnail;
+  $thumbnailselect.addEventListener("change", async (event) => {
+
+    const thumbnail = event.currentTarget.value;
+
+    // Persist
+    await chrome.storage.sync.set({ "thumbnail":thumbnail });
+  });
+
+
+  var c = new Promise(function(resolve, reject){
+        chrome.storage.sync.get({"changeTitle": "3"}, function(options){
+            resolve(options.changeTitle);
+      })
+  });
+
+  const changeTitle = await c;
+
+  const $Titleselect = document.querySelector("#changeTitle");
+  $Titleselect.value = changeTitle;
+  $Titleselect.addEventListener("change", async (event) => {
+    const changeTitle = event.currentTarget.value;
+    
+    // Persist
+    await chrome.storage.sync.set({ "changeTitle":changeTitle });
+  });
+  
 }
 
 init();

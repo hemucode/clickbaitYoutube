@@ -5,6 +5,12 @@
   --background-color: white;
 }
 
+select{
+  padding: 5px;
+  outline: none;
+  text-align: right;
+}
+
 body {
   padding: 8px 16px;
   text-align: center;

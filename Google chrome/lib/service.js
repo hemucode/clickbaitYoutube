@@ -52,6 +52,11 @@ chrome.storage.onChanged.addListener(async (changes, namespace) => {
       await disable();
     }
   }
+  if (changes.thumbnail) {
+    if (changes.thumbnail.newValue) {
+      setupThumbnailRedirectListeners();
+    }
+  }
 
   if (changes.displayActionCountAsBadgeText) {
     await chrome.declarativeNetRequest.setExtensionActionOptions({
@@ -62,67 +67,53 @@ chrome.storage.onChanged.addListener(async (changes, namespace) => {
 });
 
 
-chrome.webNavigation.onCompleted.addListener(trackVideoView, {
-  url: [{ hostSuffix: "youtube.com", pathPrefix: "/watch" }],
-});
-
-
-chrome.webNavigation.onHistoryStateUpdated.addListener(trackVideoView, {
-  url: [{ hostSuffix: "youtube.com", pathPrefix: "/watch" }],
-});
-
-/**
- * @returns Promise
- */
-async function trackVideoView() {
-  // const { enabled, videoCount } = await chrome.storage.sync.get({
-  //   enabled: true,
-  //   videoCount: 0,
-  // });
-  var a = new Promise(function(resolve, reject){
-        chrome.storage.sync.get({"enabled": true}, function(options){
-            resolve(options.enabled);
-      })
-  });
-
-  const enabled = await a;
-  console.log(enabled);
-
-  var c = new Promise(function(resolve, reject){
-        chrome.storage.sync.get({"videoCount": 0}, function(options){
-            resolve(options.videoCount);
-        })
-  });
-
-  const videoCount = await c;
-  console.log(videoCount);
-
-  
-
-
-  if (!enabled) return;
-
-  await chrome.storage.sync.set({
-    videoCount: videoCount + 1,
-  });
-}
-
 /**
  * Enables this extension core
  * @returns Promise
  */
+
+async function setupThumbnailRedirectListeners(){
+  var b = new Promise(function(resolve, reject){
+        chrome.storage.sync.get({"thumbnail": "hq1"}, function(options){
+            resolve(options.thumbnail);
+      })
+  });
+
+  const preferredThumbnailFile = await b;
+
+  if (preferredThumbnailFile === 'hqdefault') {
+        chrome.declarativeNetRequest.updateDynamicRules({
+            removeRuleIds: [1]
+        })
+    } else {
+        chrome.declarativeNetRequest.updateDynamicRules({
+            addRules: [
+                {
+                    "id": 1,
+                    "priority": 1,
+                    "action": {
+                        "type": "redirect",
+                        "redirect": {
+                            "regexSubstitution": `https://i.ytimg.com/\\1/\\2/${preferredThumbnailFile}.jpg\\4`
+                        }
+                    },
+                    "condition": {
+                        "regexFilter": "^https://i.ytimg.com/(vi|vi_webp)/(.*)/(default|hqdefault|mqdefault|sddefault|hq720).jpg(.*)",
+                        "resourceTypes": [
+                            "image"
+                        ]
+                    }
+                }
+            ],
+            removeRuleIds: [1]
+        })
+    }
+}
+
+
 async function enable() {
   await chrome.declarativeNetRequest.updateEnabledRulesets({
     enableRulesetIds: ["youtube"],
-  });
-  await chrome.action.setIcon({
-    path: {
-      16: "data/icons/icon-16.png",
-      19: "data/icons/icon-19.png",
-      32: "data/icons/icon-32.png",
-      38: "data/icons/icon-38.png",
-      128: "data/icons/icon-128.png",
-    },
   });
   await reloadAffectedTab();
 }
@@ -133,15 +124,6 @@ async function enable() {
 async function disable() {
   await chrome.declarativeNetRequest.updateEnabledRulesets({
     disableRulesetIds: ["youtube"],
-  });
-  await chrome.action.setIcon({
-    path: {
-      16: "data/icons/icon-disabled-16.png",
-      19: "data/icons/icon-disabled-19.png",
-      32: "data/icons/icon-disabled-32.png",
-      38: "data/icons/icon-disabled-38.png",
-      128: "data/icons/icon-disabled-128.png",
-    },
   });
   await reloadAffectedTab();
 }

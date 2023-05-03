@@ -28,6 +28,13 @@
       "38": "data/icons/icon-38.png",
       "64": "data/icons/icon-64.png"
    },
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "youtube",
+         "path": "data/rules/youtube.json"
+      } ]
+   },
    "manifest_version": 3,
    "name": "__MSG_extensionName__",
    "permissions": [ 

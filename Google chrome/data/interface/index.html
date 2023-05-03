@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title data-message="actionTitle">Options</title>
+    <title data-message="extensionName">Options</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -15,23 +15,36 @@
         src="../icons/icon-128.png"
         alt="logo"
       />
-      <h1><b data-message="clickbait" class="clickbait">Clickbait</b><br/> for YouTube™</h1>
+      <h1><b data-message="clickbait" class="clickbait">Clickbait</b><br/>Remove YouTube™</h1>
     </head>
     <main>
       <p data-message="extensionDescription">
-        Privacy aware, secure Adblocker for YouTube™. Blocks Advertisements on
-        YouTube.com.
       </p>
       <div class="control">
         <p data-message="thumbnailDescription" class="timesave-info">
           Take the thumbnail image from any part of the video: 
         </p>
           <select id="changeThumbnail">
-            <option>Start of the video</option>
-            <option>Middle of the video</option>
-            <option>End of the video</option>
-            <option>Do not modify</option>
+            <option value="hq1">Start of the video</option>
+            <option value="hq2">Middle of the video</option>
+            <option value="hq3">End of the video</option>
+            <option value="hqdefault">Do not modify</option>
           </select>
+        <p data-message="titleDescription" class="timesave-info">
+          How do you want the video title to appear:
+        </p>
+          <select id="changeTitle">
+            <option value="0">lowercase</option>
+            <option value="1">Capitalise sentence</option>
+            <option value="2">Capitalise Words</option>
+            <option value="3">Do not modify</option>
+          </select>
+      </div>
+      <div class="control">
+        <label class="switch">
+          <input name="enabled" type="checkbox" />
+          <span data-message="enabled">AdBlock</span>
+        </label>
       </div>
     </main>
     <script src="index.js"></script>
