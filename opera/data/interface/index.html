@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-message="extensionName">Options</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <head>
+      <img
+        class="logo"
+        width="128px"
+        height="128px"
+        src="../icons/icon-128.png"
+        alt="logo"
+      />
+      <h1><a href="#" target="_blank"data-message="clickbait" class="clickbait">Clickbait</a><br/>Remove YouTube™</h1>
+    </head>
+    <main>
+      <p data-message="extensionDescription">
+      </p>
+      <div class="control">
+        <p data-message="thumbnailDescription" class="timesave-info">
+          Take the thumbnail image from any part of the video: 
+        </p>
+          <select id="changeThumbnail">
+            <option data-message="startOfTheVideo" value="hq1"></option>
+            <option data-message="middleOfTheVideo" value="hq2"></option>
+            <option data-message="endOfTheVideo" value="hq3"></option>
+            <option data-message="doNotModify" value="hqdefault"></option>
+          </select>
+        <p data-message="titleDescription" class="timesave-info">
+          How do you want the video title to appear:
+        </p>
+          <select id="changeTitle">
+            <option data-message="lowercase" value="0"></option>
+            <option data-message="capitaliseSentence" value="1"></option>
+            <option data-message="capitaliseWords" value="2"></option>
+            <option data-message="doNotModify" value="3"></option>
+          </select>
+      </div>
+      <div class="control">
+        <label class="switch">
+          <input name="enabled" type="checkbox" />
+          <span data-message="enabled">AdBlock</span>
+        </label>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
+

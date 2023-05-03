@@ -1,0 +1,67 @@
+{
+
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "يزيل YouTube كل clickbait حتى تتمكن من اختيار الفيديو المناسب."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "ClickBait YouTube™"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Clickbait"
+   },
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
+   },
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "التقط الصورة المصغرة من أي جزء من الفيديو:"
+   },
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "تريد أن يظهر عنوان الفيديو:"
+   },
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
+   },
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "لا تعدل"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "بداية الفيديو"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "منتصف الفيديو"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "نهاية الفيديو"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "أحرف صغيرة"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "استفد من الجملة"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "تكبير الكلمات"
+   }
+}

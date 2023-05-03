@@ -1,0 +1,67 @@
+{
+
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "ትክክለኛውን ቪዲዮ መምረጥ እንዲችሉ ዩቲዩብ ሁሉንም ጠቅታዎችን ያስወግዳል"
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "ClickBait YouTube™"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Clickbait"
+   },
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
+   },
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "ከየትኛውም የቪዲዮው ክፍል ድንክዬ ምስሉን ያንሱ፡-"
+   },
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "የቪዲዮው ርዕስ እንዲታይ ይፈልጋሉ፡-"
+   },
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
+   },
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "አትቀይር"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "የቪዲዮው መጀመሪያo"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "የቪዲዮው መሃል"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "የቪዲዮው መጨረሻ"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "ንዑስ ሆሄያት"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "ዓረፍተ ነገርን አቢይ አድርግ"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "ቃላትን አቢይ አድርግ"
+   }
+}

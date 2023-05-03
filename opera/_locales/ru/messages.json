@@ -1,0 +1,67 @@
+{
+
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "YouTube удаляет все кликбейты, чтобы вы могли выбрать правильное видео."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "ClickBait YouTube™"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Clickbait"
+   },
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
+   },
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "Возьмите миниатюру из любой части видео: "
+   },
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "Вы хотите, чтобы название видео отображалось: "
+   },
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
+   },
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "Не изменять"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "Начало видео"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "Середина видео"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "Конец видео"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "нижний регистр"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "Заглавная буква"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "Заглавные слова"
+   }
+}

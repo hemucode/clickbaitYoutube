@@ -1,0 +1,67 @@
+{
+
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "YouTube 删除了所有点击诱饵，因此您可以选择正确的视频。"
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "点击诱饵 YouTube™"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "点击诱饵"
+   },
+   "clickbait": {
+      "description": "The short_name",
+      "message": "点击诱饵"
+   },
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "从视频的任何部分获取缩略图： "
+   },
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "您希望视频标题出现： "
+   },
+   "enabled": {
+      "description": "Ads",
+      "message": "广告块"
+   },
+   "disabled": {
+      "description": "Ads",
+      "message": "广告解锁"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "请勿修改"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "视频开头"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "视频中间"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "视频结束"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "小写"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "大写句子"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "大写单词"
+   }
+}

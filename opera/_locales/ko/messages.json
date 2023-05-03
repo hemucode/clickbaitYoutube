@@ -1,0 +1,67 @@
+{
+
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "YouTube는 올바른 동영상을 선택할 수 있도록 모든 클릭베이트를 제거합니다."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "클릭베이트 YouTube™"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "클릭베이트"
+   },
+   "clickbait": {
+      "description": "The short_name",
+      "message": "클릭베이트"
+   },
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "비디오의 모든 부분에서 축소판 이미지를 가져옵니다: "
+   },
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "비디오 타이틀을 표시하려면 다음을 수행하십시오:  "
+   },
+   "enabled": {
+      "description": "Ads",
+      "message": "광고 차단"
+   },
+   "disabled": {
+      "description": "Ads",
+      "message": "광고 차단 해제"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "수정하지 마십시오"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "비디오 시작"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "영상 중간"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "비디오의 끝"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "소문자"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "문장을 대문자로"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "단어를 대문자로"
+   }
+}
