@@ -1,58 +1,67 @@
 {
-   "actionTitle": {
-      "message": "አማራጮች"
-   },
-   "disabled": {
-      "message": "ተሰናክሏል"
-   },
-   "displayActionCountAsBadgeText": {
-      "description": "Boolean Option",
-      "message": "የታገዱ የጥያቄዎች ብዛት በባጅ ውስጥ አሳይ"
-   },
-   "displayVideoBranding": {
-      "description": "Boolean Option",
-      "message": "ከቪዲዮው በታች ያለውን የቅጥያ መረጃ አሳይ"
-   },
-   "dontAskAgain": {
-      "message": "እንደገና አትጠይቅ"
-   },
-   "enabled": {
-      "message": "ነቅቷል"
-   },
+
    "extensionDescription": {
       "description": "The description of the application",
-      "message": "ግላዊነትን የሚያውቅ፣ ደህንነቱ የተጠበቀ Adblock ለYouTube™። በYouTube.com ላይ ማስታወቂያዎችን ያግዳል።"
+      "message": ""
    },
    "extensionName": {
       "description": "The name of the application",
-      "message": "ማስታወቂያ እገዳ ለYouTube™ — best adblocker"
+      "message": ""
    },
    "extensionShortName": {
       "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
-      "message": "Adb YouTube™"
+      "message": "Clickbait"
    },
-   "helpUsWithAReview": {
-      "message": "በግምገማ እርዳን"
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
    },
-   "later": {
-      "message": "በኋላ"
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": ""
    },
-   "recommend": {
-      "description": "Shown by the recommend button",
-      "message": "ይመክራል።"
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": ""
    },
-   "timesaveInfo": {
-      "description": "Tells the user how many time he saved already.",
-      "message": "Adblock ለ Youtube™ ተቀምጧል በግምት። የህይወት ዘመንህ $savedTime$",
-      "placeholders": {
-         "savedTime": {
-            "content": "$1",
-            "example": "42"
-         }
-      }
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
    },
-   "videoBranding": {
-      "description": "Shown below a video",
-      "message": "ለYouTube™ በAdblock የጸዳ"
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "Do not modify"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "Start of the video"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "Middle of the video"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "End of the video"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "lowercase"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "Capitalise sentence"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "Capitalise Words"
    }
 }
