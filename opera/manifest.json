@@ -40,7 +40,8 @@
    "permissions": [ 
       "declarativeNetRequest", 
       "declarativeNetRequestFeedback", 
-      "storage", 
+      "storage",
+      "contextMenus",
       "scripting", 
       "webNavigation", 
       "tabs" ],
