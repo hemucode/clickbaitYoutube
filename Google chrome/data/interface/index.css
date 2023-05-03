@@ -1,3 +1,10 @@
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
 :root {
   --primary-rgb: 26, 115, 232;
   --onsurface-rgb: 0, 0, 0;
@@ -6,6 +13,7 @@
 }
 
 select{
+  cursor: pointer;
   padding: 5px;
   outline: none;
   text-align: right;
@@ -25,6 +33,10 @@ h1 {
 }
 .clickbait{
   font-size: 50px;
+  color: #222;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .logo {
@@ -36,6 +48,10 @@ h1 {
 [is="action-link"]:hover,
 [is="action-link"]:visited {
   color: rgb(var(--link-color-rgb));
+}
+
+.clickbait:hover{
+  color: red;
 }
 
 .control {

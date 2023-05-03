@@ -1,58 +1,67 @@
 {
-   "actionTitle": {
-      "message": "Opțiuni"
-   },
-   "disabled": {
-      "message": "Dezactivat"
-   },
-   "displayActionCountAsBadgeText": {
-      "description": "Boolean Option",
-      "message": "Afișați numărul de solicitări blocate în insigna"
-   },
-   "displayVideoBranding": {
-      "description": "Boolean Option",
-      "message": "Afișați informațiile despre extensie mai jos videoclipul"
-   },
-   "dontAskAgain": {
-      "message": "Nu mai întreba"
-   },
-   "enabled": {
-      "message": "Activat"
-   },
+
    "extensionDescription": {
       "description": "The description of the application",
-      "message": "Adblock securizat și conștient de confidențialitate pentru YouTube™. Blochează reclamele pe YouTube.com."
+      "message": "YouTube elimină toate clicurile, astfel încât să puteți alege videoclipul potrivit."
    },
    "extensionName": {
       "description": "The name of the application",
-      "message": "Adblock pentru YouTube™ — best adblocker"
+      "message": "ClickBait YouTube™"
    },
    "extensionShortName": {
       "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
-      "message": "Adb YouTube™"
+      "message": "Clickbait"
    },
-   "helpUsWithAReview": {
-      "message": "Ajutați-ne cu o recenzie"
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
    },
-   "later": {
-      "message": "Mai tarziu"
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "Luați imaginea în miniatură din orice parte a videoclipului: "
    },
-   "recommend": {
-      "description": "Shown by the recommend button",
-      "message": "Recomanda"
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "Vrei să apară titlul videoclipului: "
    },
-   "timesaveInfo": {
-      "description": "Tells the user how many time he saved already.",
-      "message": "Adblock pentru Youtube™ salvat aprox. $savedTime$ din viața ta.",
-      "placeholders": {
-         "savedTime": {
-            "content": "$1",
-            "example": "42"
-         }
-      }
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
    },
-   "videoBranding": {
-      "description": "Shown below a video",
-      "message": "Curățat de Adblock pentru YouTube™"
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "Nu modificați"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "Începutul videoclipului"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "Mijlocul videoclipului"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "Sfârșitul videoclipului"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "litere mici"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "propoziția cu majuscule"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "Cuvintele cu majuscule"
    }
 }

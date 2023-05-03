@@ -1,58 +1,67 @@
 {
-   "actionTitle": {
-      "message": "خيارات"
-   },
-   "disabled": {
-      "message": "عاجز"
-   },
-   "displayActionCountAsBadgeText": {
-      "description": "Boolean Option",
-      "message": "إظهار عدد الطلبات المحظورة في الشارة"
-   },
-   "displayVideoBranding": {
-      "description": "Boolean Option",
-      "message": "إظهار معلومات التمديد أدناه الفيديو"
-   },
-   "dontAskAgain": {
-      "message": "لا تسأل مرة أخرى"
-   },
-   "enabled": {
-      "message": "ممكن"
-   },
+
    "extensionDescription": {
       "description": "The description of the application",
-      "message": "مدرك للخصوصية ، Adblock آمن لـ YouTube ™. يمنع الإعلانات على موقع YouTube.com."
+      "message": "يزيل YouTube كل clickbait حتى تتمكن من اختيار الفيديو المناسب."
    },
    "extensionName": {
       "description": "The name of the application",
-      "message": "Adblock لموقع YouTube ™ — best adblocker"
+      "message": "ClickBait YouTube™"
    },
    "extensionShortName": {
       "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
-      "message": "Adb YouTube ™"
+      "message": "Clickbait"
    },
-   "helpUsWithAReview": {
-      "message": "ساعدنا بمراجعة"
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
    },
-   "later": {
-      "message": "في وقت لاحق"
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "التقط الصورة المصغرة من أي جزء من الفيديو:"
    },
-   "recommend": {
-      "description": "Shown by the recommend button",
-      "message": "نوصي"
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "تريد أن يظهر عنوان الفيديو:"
    },
-   "timesaveInfo": {
-      "description": "Tells the user how many time he saved already.",
-      "message": "تم حفظ Adblock لـ Youtube ™ تقريبًا. $ saveTime $ من حياتك.",
-      "placeholders": {
-         "savedTime": {
-            "content": "$1",
-            "example": "42"
-         }
-      }
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
    },
-   "videoBranding": {
-      "description": "Shown below a video",
-      "message": "تم التنظيف بواسطة Adblock لـ YouTube ™"
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "لا تعدل"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "بداية الفيديو"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "منتصف الفيديو"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "نهاية الفيديو"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "أحرف صغيرة"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "استفد من الجملة"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "تكبير الكلمات"
    }
 }

@@ -1,58 +1,67 @@
 {
-   "actionTitle": {
-      "message": "オプション"
-   },
-   "disabled": {
-      "message": "無効"
-   },
-   "displayActionCountAsBadgeText": {
-      "description": "Boolean Option",
-      "message": "ブロックされたリクエストの数をバッジに表示する"
-   },
-   "displayVideoBranding": {
-      "description": "Boolean Option",
-      "message": "ビデオの下に拡張情報を表示する"
-   },
-   "dontAskAgain": {
-      "message": "二度と聞かないで"
-   },
-   "enabled": {
-      "message": "有効"
-   },
+
    "extensionDescription": {
       "description": "The description of the application",
-      "message": "プライバシーを意識した、YouTube™用の安全なAdblock。 YouTube.comの広告をブロックします。"
+      "message": "YouTube はすべてのクリックベイトを取り除き、適切な動画を選択できるようにします。"
    },
    "extensionName": {
       "description": "The name of the application",
-      "message": "YouTube™のAdblock — best adblocker"
+      "message": "クリックベイト YouTube™"
    },
    "extensionShortName": {
       "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
-      "message": "AdbYouTube™"
+      "message": "Clickbait"
    },
-   "helpUsWithAReview": {
-      "message": "レビューを手伝ってください"
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
    },
-   "later": {
-      "message": "後で"
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "ビデオの任意の部分からサムネイル画像を取得します: "
    },
-   "recommend": {
-      "description": "Shown by the recommend button",
-      "message": "お勧め"
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "ビデオのタイトルを表示するには: "
    },
-   "timesaveInfo": {
-      "description": "Tells the user how many time he saved already.",
-      "message": "Youtube™のAdblockは約節約されました。あなたの生涯の$ savedTime $。",
-      "placeholders": {
-         "savedTime": {
-            "content": "$1",
-            "example": "42"
-         }
-      }
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
    },
-   "videoBranding": {
-      "description": "Shown below a video",
-      "message": "AdblockforYouTube™によってクリーンアップされました"
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "変更しないでください"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "ビデオの開始"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "動画中盤"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "ビデオの終わり"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "小文字"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "文を大文字にする"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "単語を大文字にする"
    }
 }

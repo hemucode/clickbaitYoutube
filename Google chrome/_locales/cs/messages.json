@@ -1,58 +1,67 @@
 {
-   "actionTitle": {
-      "message": "Možnosti"
-   },
-   "disabled": {
-      "message": "Zakázáno"
-   },
-   "displayActionCountAsBadgeText": {
-      "description": "Boolean Option",
-      "message": "Zobrazit v odznaku počet blokovaných požadavků"
-   },
-   "displayVideoBranding": {
-      "description": "Boolean Option",
-      "message": "Zobrazit informace o rozšíření pod videem"
-   },
-   "dontAskAgain": {
-      "message": "Už se neptejte"
-   },
-   "enabled": {
-      "message": "Povoleno"
-   },
+
    "extensionDescription": {
       "description": "The description of the application",
-      "message": "Zabezpečený Adblock pro YouTube™ s ohledem na soukromí. Blokuje reklamy na YouTube.com."
+      "message": "YouTube removes all clickbait so you can choose the right video"
    },
    "extensionName": {
       "description": "The name of the application",
-      "message": "Adblock pro YouTube™ — best adblocker"
+      "message": "ClickBait YouTube™"
    },
    "extensionShortName": {
       "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
-      "message": "Adb YouTube™"
+      "message": "Clickbait"
    },
-   "helpUsWithAReview": {
-      "message": "Pomozte nám s recenzí"
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
    },
-   "later": {
-      "message": "Později"
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "Take the thumbnail image from any part of the video: "
    },
-   "recommend": {
-      "description": "Shown by the recommend button",
-      "message": "Doporučit"
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "You want the video title to appear: "
    },
-   "timesaveInfo": {
-      "description": "Tells the user how many time he saved already.",
-      "message": "Adblock pro Youtube™ ušetřil cca. $savedTime$ vašeho života.",
-      "placeholders": {
-         "savedTime": {
-            "content": "$1",
-            "example": "42"
-         }
-      }
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
    },
-   "videoBranding": {
-      "description": "Shown below a video",
-      "message": "Vyčištěno službou Adblock pro YouTube™"
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "Do not modify"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "Start of the video"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "Middle of the video"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "End of the video"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "lowercase"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "Capitalise sentence"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "Capitalise Words"
    }
 }

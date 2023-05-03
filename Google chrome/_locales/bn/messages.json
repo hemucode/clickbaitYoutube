@@ -1,58 +1,67 @@
 {
-   "actionTitle": {
-      "message": "অপশন"
-   },
-   "disabled": {
-      "message": "অক্ষম"
-   },
-   "displayActionCountAsBadgeText": {
-      "description": "Boolean Option",
-      "message": "ব্যাজে ব্লক করা অনুরোধের সংখ্যা দেখান"
-   },
-   "displayVideoBranding": {
-      "description": "Boolean Option",
-      "message": "ভিডিও নীচে এক্সটেনশন তথ্য দেখান"
-   },
-   "dontAskAgain": {
-      "message": "আবার জিজ্ঞাসা করবেন না"
-   },
-   "enabled": {
-      "message": "সক্রিয়"
-   },
+
    "extensionDescription": {
       "description": "The description of the application",
-      "message": "গোপনীয়তা সচেতন, YouTube™ এর জন্য নিরাপদ অ্যাডব্লকার। YouTube.com-এ বিজ্ঞাপন ব্লক করে।"
+      "message": "YouTube removes all clickbait so you can choose the right video"
    },
    "extensionName": {
       "description": "The name of the application",
-      "message": "YouTube™ এর জন্য অ্যাডব্লক  — best adblocker"
+      "message": "ClickBait YouTube™"
    },
    "extensionShortName": {
       "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
-      "message": "Adb YouTube™"
+      "message": "Clickbait"
    },
-   "helpUsWithAReview": {
-      "message": "একটি পর্যালোচনা আমাদের সাহায্য করুন"
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
    },
-   "later": {
-      "message": "পরে"
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "Take the thumbnail image from any part of the video: "
    },
-   "recommend": {
-      "description": "Shown by the recommend button",
-      "message": "সুপারিশ করুন"
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "You want the video title to appear: "
    },
-   "timesaveInfo": {
-      "description": "Tells the user how many time he saved already.",
-      "message": "Youtube™ এর জন্য অ্যাডব্লক প্রায় সংরক্ষিত। আপনার জীবনের $savedTime$।",
-      "placeholders": {
-         "savedTime": {
-            "content": "$1",
-            "example": "42"
-         }
-      }
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
    },
-   "videoBranding": {
-      "description": "Shown below a video",
-      "message": "YouTube™ এর জন্য অ্যাডব্লক দ্বারা পরিষ্কার করা হয়েছে৷"
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "Do not modify"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "Start of the video"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "Middle of the video"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "End of the video"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "lowercase"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "Capitalise sentence"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "Capitalise Words"
    }
 }

@@ -1,58 +1,67 @@
 {
-   "actionTitle": {
-      "message": "Опции"
-   },
-   "disabled": {
-      "message": "Неполноценный"
-   },
-   "displayActionCountAsBadgeText": {
-      "description": "Boolean Option",
-      "message": "Показывать количество заблокированных запросов в значке"
-   },
-   "displayVideoBranding": {
-      "description": "Boolean Option",
-      "message": "Показать информацию о расширении под видео"
-   },
-   "dontAskAgain": {
-      "message": "Больше не спрашивай"
-   },
-   "enabled": {
-      "message": "Включено"
-   },
+
    "extensionDescription": {
       "description": "The description of the application",
-      "message": "Защита конфиденциальности, безопасный блокировщик рекламы для YouTube™. Блокирует рекламу на YouTube.com."
+      "message": "YouTube удаляет все кликбейты, чтобы вы могли выбрать правильное видео."
    },
    "extensionName": {
       "description": "The name of the application",
-      "message": "Блокировщик рекламы для YouTube™ — best adblocker"
+      "message": "ClickBait YouTube™"
    },
    "extensionShortName": {
       "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
-      "message": "Adb YouTube™"
+      "message": "Clickbait"
    },
-   "helpUsWithAReview": {
-      "message": "Помогите нам с обзором"
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
    },
-   "later": {
-      "message": "Позже"
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "Возьмите миниатюру из любой части видео: "
    },
-   "recommend": {
-      "description": "Shown by the recommend button",
-      "message": "Рекомендовать"
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "Вы хотите, чтобы название видео отображалось: "
    },
-   "timesaveInfo": {
-      "description": "Tells the user how many time he saved already.",
-      "message": "Adblock для Youtube™ сэкономил прибл. $savedTime$ вашей жизни.",
-      "placeholders": {
-         "savedTime": {
-            "content": "$1",
-            "example": "42"
-         }
-      }
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
    },
-   "videoBranding": {
-      "description": "Shown below a video",
-      "message": "Очищено Adblock для YouTube™"
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "Не изменять"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "Начало видео"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "Середина видео"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "Конец видео"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "нижний регистр"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "Заглавная буква"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "Заглавные слова"
    }
 }

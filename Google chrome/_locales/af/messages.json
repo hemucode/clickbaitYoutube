@@ -2,11 +2,11 @@
 
    "extensionDescription": {
       "description": "The description of the application",
-      "message": ""
+      "message": "YouTube verwyder alle clickbait sodat jy die regte video kan kies."
    },
    "extensionName": {
       "description": "The name of the application",
-      "message": ""
+      "message": "KlikBait YouTube™"
    },
    "extensionShortName": {
       "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
@@ -18,11 +18,11 @@
    },
    "thumbnailDescription": {
       "description": "Take the thumbnail description",
-      "message": ""
+      "message": "Neem die kleinkiekieprent van enige deel van die video:"
    },
    "titleDescription": {
       "description": "Take the title description",
-      "message": ""
+      "message": "Jy wil hê die videotitel moet verskyn:"
    },
    "enabled": {
       "description": "Ads",
@@ -38,30 +38,30 @@
    },
    "doNotModify": {
       "description": "Do not modify text description",
-      "message": "Do not modify"
+      "message": "Moenie wysig nie"
    },
    "startOfTheVideo": {
       "description": "Start of the video text description",
-      "message": "Start of the video"
+      "message": "Begin van die video"
    },
    "middleOfTheVideo": {
       "description": "Middle of the video text description",
-      "message": "Middle of the video"
+      "message": "Middel van die video"
    },
    "endOfTheVideo": {
       "description": "End of the video text description",
-      "message": "End of the video"
+      "message": "Einde van die video"
    },
    "lowercase": {
       "description": "lowercase text description",
-      "message": "lowercase"
+      "message": "kleinletters"
    },
    "capitaliseSentence": {
       "description": "Capitalise sentence text description",
-      "message": "Capitalise sentence"
+      "message": "Kapitaliseer sin"
    },
    "capitaliseWords": {
       "description": "Capitalise Words text description",
-      "message": "Capitalise Words"
+      "message": "Kapitaliseer woorde"
    }
 }

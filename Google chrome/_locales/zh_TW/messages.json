@@ -1,58 +1,67 @@
 {
-   "actionTitle": {
-      "message": "Options"
-   },
-   "disabled": {
-      "message": "Disabled"
-   },
-   "displayActionCountAsBadgeText": {
-      "description": "Boolean Option",
-      "message": "Show blocked requests count in badge"
-   },
-   "displayVideoBranding": {
-      "description": "Boolean Option",
-      "message": "Show extension info below video"
-   },
-   "dontAskAgain": {
-      "message": "Don't ask again"
-   },
-   "enabled": {
-      "message": "Enabled"
-   },
+
    "extensionDescription": {
       "description": "The description of the application",
-      "message": "Privacy aware, secure Adblock for YouTube™. Blocks any ads on YouTube.com."
+      "message": "YouTube 刪除了所有點擊誘餌，因此您可以選擇正確的視頻。"
    },
    "extensionName": {
       "description": "The name of the application",
-      "message": "YouTube™ 廣告攔截器 — best adblocker"
+      "message": "點擊誘餌 YouTube™"
    },
    "extensionShortName": {
       "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
-      "message": "Adb YouTube™"
+      "message": "點擊誘餌"
    },
-   "helpUsWithAReview": {
-      "message": "Help us with a Review"
+   "clickbait": {
+      "description": "The short_name",
+      "message": "點擊誘餌"
    },
-   "later": {
-      "message": "Later"
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "從視頻的任何部分獲取縮略圖： "
    },
-   "recommend": {
-      "description": "Shown by the recommend button",
-      "message": "Recommend"
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "您希望視頻標題出現： "
    },
-   "timesaveInfo": {
-      "description": "Tells the user how many time he saved already.",
-      "message": "Adblock for Youtube™ saved approx. $savedTime$ of your lifetime.",
-      "placeholders": {
-         "savedTime": {
-            "content": "$1",
-            "example": "42"
-         }
-      }
+   "enabled": {
+      "description": "Ads",
+      "message": "廣告塊"
    },
-   "videoBranding": {
-      "description": "Shown below a video",
-      "message": "Cleaned by Adblock for YouTube™"
+   "disabled": {
+      "description": "Ads",
+      "message": "廣告解鎖"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "請勿修改"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "視頻開頭"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "視頻中間"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "視頻結束"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "小寫"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "大寫句子"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "大寫單詞"
    }
 }

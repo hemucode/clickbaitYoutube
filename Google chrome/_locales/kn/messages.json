@@ -1,58 +1,67 @@
 {
-   "actionTitle": {
-      "message": "ಆಯ್ಕೆಗಳು"
-   },
-   "disabled": {
-      "message": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
-   },
-   "displayActionCountAsBadgeText": {
-      "description": "Boolean Option",
-      "message": "ಬ್ಯಾಡ್ಜ್‌ನಲ್ಲಿ ನಿರ್ಬಂಧಿಸಲಾದ ವಿನಂತಿಗಳ ಸಂಖ್ಯೆಯನ್ನು ತೋರಿಸಿ"
-   },
-   "displayVideoBranding": {
-      "description": "Boolean Option",
-      "message": "ವೀಡಿಯೊ ಕೆಳಗೆ ವಿಸ್ತರಣೆ ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಿ"
-   },
-   "dontAskAgain": {
-      "message": "ಮತ್ತೆ ಕೇಳಬೇಡ"
-   },
-   "enabled": {
-      "message": "ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
-   },
+
    "extensionDescription": {
       "description": "The description of the application",
-      "message": "YouTube™ ಗಾಗಿ ಗೌಪ್ಯತೆ ಅರಿವು, ಸುರಕ್ಷಿತ ಆಡ್‌ಬ್ಲಾಕರ್. YouTube.com ನಲ್ಲಿ ಜಾಹೀರಾತುಗಳನ್ನು ನಿರ್ಬಂಧಿಸುತ್ತದೆ."
+      "message": "YouTube removes all clickbait so you can choose the right video"
    },
    "extensionName": {
       "description": "The name of the application",
-      "message": "YouTube™ ಗಾಗಿ ಆಡ್‌ಬ್ಲಾಕ್"
+      "message": "ClickBait YouTube™"
    },
    "extensionShortName": {
       "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
-      "message": "Adb YouTube™"
+      "message": "Clickbait"
    },
-   "helpUsWithAReview": {
-      "message": "ವಿಮರ್ಶೆಯೊಂದಿಗೆ ನಮಗೆ ಸಹಾಯ ಮಾಡಿ"
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
    },
-   "later": {
-      "message": "ನಂತರ"
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "Take the thumbnail image from any part of the video: "
    },
-   "recommend": {
-      "description": "Shown by the recommend button",
-      "message": "ಶಿಫಾರಸು ಮಾಡಿ"
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "You want the video title to appear: "
    },
-   "timesaveInfo": {
-      "description": "Tells the user how many time he saved already.",
-      "message": "Youtube™ ಗಾಗಿ ಆಡ್‌ಬ್ಲಾಕ್ ಸರಿಸುಮಾರು ಉಳಿಸಲಾಗಿದೆ. ನಿಮ್ಮ ಜೀವಿತಾವಧಿಯ $ಉಳಿಸಿದ ಸಮಯ$.",
-      "placeholders": {
-         "savedTime": {
-            "content": "$1",
-            "example": "42"
-         }
-      }
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
    },
-   "videoBranding": {
-      "description": "Shown below a video",
-      "message": "YouTube™ ಗಾಗಿ Adblock ಮೂಲಕ ಸ್ವಚ್ಛಗೊಳಿಸಲಾಗಿದೆ"
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "Do not modify"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "Start of the video"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "Middle of the video"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "End of the video"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "lowercase"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "Capitalise sentence"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "Capitalise Words"
    }
 }

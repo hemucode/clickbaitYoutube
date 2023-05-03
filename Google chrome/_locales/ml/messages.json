@@ -1,58 +1,67 @@
 {
-   "actionTitle": {
-      "message": "ഓപ്ഷനുകൾ"
-   },
-   "disabled": {
-      "message": "അപ്രാപ്തമാക്കി"
-   },
-   "displayActionCountAsBadgeText": {
-      "description": "Boolean Option",
-      "message": "തടഞ്ഞ അഭ്യർത്ഥനകളുടെ എണ്ണം ബാഡ്ജിൽ കാണിക്കുക"
-   },
-   "displayVideoBranding": {
-      "description": "Boolean Option",
-      "message": "വീഡിയോയ്ക്ക് താഴെയുള്ള വിപുലീകരണ വിവരങ്ങൾ കാണിക്കുക"
-   },
-   "dontAskAgain": {
-      "message": "വീണ്ടും ചോദിക്കരുത്"
-   },
-   "enabled": {
-      "message": "പ്രവർത്തനക്ഷമമാക്കി"
-   },
+
    "extensionDescription": {
       "description": "The description of the application",
-      "message": "YouTube™-നുള്ള സ്വകാര്യത ബോധമുള്ള, സുരക്ഷിതമായ Adblock. YouTube.com-ലെ പരസ്യങ്ങൾ തടയുന്നു."
+      "message": "YouTube removes all clickbait so you can choose the right video"
    },
    "extensionName": {
       "description": "The name of the application",
-      "message": "YouTube™-നുള്ള ആഡ്ബ്ലോക്ക്"
+      "message": "ClickBait YouTube™"
    },
    "extensionShortName": {
       "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
-      "message": "Adb YouTube™"
+      "message": "Clickbait"
    },
-   "helpUsWithAReview": {
-      "message": "ഒരു അവലോകനത്തിൽ ഞങ്ങളെ സഹായിക്കൂ"
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
    },
-   "later": {
-      "message": "പിന്നീട്"
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "Take the thumbnail image from any part of the video: "
    },
-   "recommend": {
-      "description": "Shown by the recommend button",
-      "message": "ശുപാർശ ചെയ്യുക"
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "You want the video title to appear: "
    },
-   "timesaveInfo": {
-      "description": "Tells the user how many time he saved already.",
-      "message": "Youtube™-നുള്ള Adblock ഏകദേശം സംരക്ഷിച്ചു. നിങ്ങളുടെ ജീവിതകാലത്തെ $savedTime$.",
-      "placeholders": {
-         "savedTime": {
-            "content": "$1",
-            "example": "42"
-         }
-      }
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
    },
-   "videoBranding": {
-      "description": "Shown below a video",
-      "message": "YouTube™-നുള്ള Adblock വഴി വൃത്തിയാക്കിയത്"
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "Do not modify"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "Start of the video"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "Middle of the video"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "End of the video"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "lowercase"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "Capitalise sentence"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "Capitalise Words"
    }
 }

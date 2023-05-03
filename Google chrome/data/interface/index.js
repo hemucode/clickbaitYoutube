@@ -22,6 +22,13 @@ function translate() {
  * @returns Promise
  */
 async function hydrate() {
+  
+  document.addEventListener("contextmenu", function (e){
+      e.preventDefault();
+  }, false);
+
+  document.querySelector('.clickbait').href = `https://chrome.google.com/webstore/detail/${chrome.runtime.id}/reviews`;
+
    var a = new Promise(function(resolve, reject){
         chrome.storage.sync.get({"enabled": true}, function(options){
             resolve(options.enabled);

@@ -1,58 +1,67 @@
 {
-  "extensionName": {
-    "message": "ୟୁଟ୍ୟୁବ୍ ପାଇଁ ଆଡବ୍ଲକ୍ ™ | — best adblocker",
-    "description": "The name of the application"
-  },
-  "extensionShortName": {
-    "message": "Adb YouTube ™",
-    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
-  },
-  "extensionDescription": {
-    "message": "ଗୋପନୀୟତା ସଚେତନ, ୟୁଟ୍ୟୁବ୍ ପାଇଁ ସୁରକ୍ଷିତ ଆଡବ୍ଲକର୍ ™ | ୟୁଟ୍ୟୁବ୍ ଡଟ୍ କମ୍ରେ ବିଜ୍ଞାପନଗୁଡିକ ଅବରୋଧ କରେ |",
-    "description": "The description of the application"
-  },
-  "actionTitle": {
-    "message": "ବିକଳ୍ପଗୁଡ଼ିକ"
-  },
-  "enabled": {
-    "message": "ସକ୍ଷମ"
-  },
-  "disabled": {
-    "message": "ଅକ୍ଷମ"
-  },
-  "timesaveInfo": {
-    "message": "Youtube ™ ପାଇଁ ଆଡବ୍ଲକ୍ ପାଖାପାଖି ସଞ୍ଚୟ ହୋଇଛି | ଆପଣଙ୍କ ଜୀବନକାଳର $ ସଞ୍ଚୟ ସମୟ $ |",
-    "description": "Tells the user how many time he saved already.",
-    "placeholders": {
-      "savedTime": {
-        "content": "$1",
-        "example": "42"
-      }
-    }
-  },
-  "videoBranding": {
-    "message": "ୟୁଟ୍ୟୁବ୍ ™ ପାଇଁ ଆଡବ୍ଲକ୍ ଦ୍ୱାରା ସଫା କରାଯାଇଛି |",
-    "description": "Shown below a video"
-  },
-  "displayVideoBranding": {
-    "message": "ଭିଡିଓ ତଳେ ଏକ୍ସଟେନ୍ସନ୍ ସୂଚନା ଦେଖାନ୍ତୁ |",
-    "description": "Boolean Option"
-  },
-  "displayActionCountAsBadgeText": {
-    "message": "ବ୍ୟାଜରେ ଅବରୋଧିତ ଅନୁରୋଧଗୁଡିକ ଗଣନା କରନ୍ତୁ |",
-    "description": "Boolean Option"
-  },
-  "recommend": {
-    "message": "ସୁପାରିଶ କରନ୍ତୁ |",
-    "description": "Shown by the recommend button"
-  },
-  "helpUsWithAReview": {
-    "message": "ଏକ ସମୀକ୍ଷା ସହିତ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତୁ |"
-  },
-  "later": {
-    "message": "ପରେ"
-  },
-  "dontAskAgain": {
-    "message": "ପୁନର୍ବାର ପଚାର ନାହିଁ |"
-  }
+
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "YouTube removes all clickbait so you can choose the right video"
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "ClickBait YouTube™"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Clickbait"
+   },
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
+   },
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "Take the thumbnail image from any part of the video: "
+   },
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "You want the video title to appear: "
+   },
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
+   },
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "Do not modify"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "Start of the video"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "Middle of the video"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "End of the video"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "lowercase"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "Capitalise sentence"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "Capitalise Words"
+   }
 }

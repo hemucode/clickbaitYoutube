@@ -1,58 +1,67 @@
 {
-   "actionTitle": {
-      "message": "पर्याय"
-   },
-   "disabled": {
-      "message": "अक्षम"
-   },
-   "displayActionCountAsBadgeText": {
-      "description": "Boolean Option",
-      "message": "ब्लॉक केलेल्या विनंत्या बॅजमध्ये दाखवा"
-   },
-   "displayVideoBranding": {
-      "description": "Boolean Option",
-      "message": "व्हिडिओ खाली विस्तार माहिती दर्शवा"
-   },
-   "dontAskAgain": {
-      "message": "पुन्हा विचारू नका"
-   },
-   "enabled": {
-      "message": "सक्षम केले"
-   },
+
    "extensionDescription": {
       "description": "The description of the application",
-      "message": "गोपनीयता जागरूक, YouTube™ साठी सुरक्षित अॅडब्लॉकर. YouTube.com वरील जाहिराती अवरोधित करा."
+      "message": "YouTube removes all clickbait so you can choose the right video"
    },
    "extensionName": {
       "description": "The name of the application",
-      "message": "YouTube™ साठी अॅडब्लॉक — best adblocker"
+      "message": "ClickBait YouTube™"
    },
    "extensionShortName": {
       "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
-      "message": "Adb YouTube™"
+      "message": "Clickbait"
    },
-   "helpUsWithAReview": {
-      "message": "पुनरावलोकनासाठी आम्हाला मदत करा"
+   "clickbait": {
+      "description": "The short_name",
+      "message": "ClickBait"
    },
-   "later": {
-      "message": "नंतर"
+   "thumbnailDescription": {
+      "description": "Take the thumbnail description",
+      "message": "Take the thumbnail image from any part of the video: "
    },
-   "recommend": {
-      "description": "Shown by the recommend button",
-      "message": "शिफारस करा"
+   "titleDescription": {
+      "description": "Take the title description",
+      "message": "You want the video title to appear: "
    },
-   "timesaveInfo": {
-      "description": "Tells the user how many time he saved already.",
-      "message": "Youtube™ साठी Adblock अंदाजे जतन केले. तुमच्या आयुष्यातील $savedTime$.",
-      "placeholders": {
-         "savedTime": {
-            "content": "$1",
-            "example": "42"
-         }
-      }
+   "enabled": {
+      "description": "Ads",
+      "message": "Ad Block"
    },
-   "videoBranding": {
-      "description": "Shown below a video",
-      "message": "YouTube™ साठी Adblock द्वारे साफ केले"
+   "disabled": {
+      "description": "Ads",
+      "message": "Ad UnBlock"
+   },
+   "official": {
+      "description": "official page description",
+      "message": "Go to the official page By Codehemu: "
+   },
+   "doNotModify": {
+      "description": "Do not modify text description",
+      "message": "Do not modify"
+   },
+   "startOfTheVideo": {
+      "description": "Start of the video text description",
+      "message": "Start of the video"
+   },
+   "middleOfTheVideo": {
+      "description": "Middle of the video text description",
+      "message": "Middle of the video"
+   },
+   "endOfTheVideo": {
+      "description": "End of the video text description",
+      "message": "End of the video"
+   },
+   "lowercase": {
+      "description": "lowercase text description",
+      "message": "lowercase"
+   },
+   "capitaliseSentence": {
+      "description": "Capitalise sentence text description",
+      "message": "Capitalise sentence"
+   },
+   "capitaliseWords": {
+      "description": "Capitalise Words text description",
+      "message": "Capitalise Words"
    }
 }
